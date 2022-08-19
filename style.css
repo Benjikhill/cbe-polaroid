@@ -1,0 +1,27 @@
+html {
+  box-sizing: border-box;
+  font-family: DynaPuff;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #ffff00;
+}
+.polaroid {
+  background-color: aliceblue;
+  width: 30%;
+  transform: rotate(-5deg);
+  box-shadow: 5px 5px 5px gray;
+}
+.picture {
+  width: 90%;
+  height: 90%;
+  margin: 5%;
+}
+.text {
+  text-align: center;
+  padding-bottom: 20px;
+  color: burlywood;
+}
